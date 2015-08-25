@@ -1,0 +1,191 @@
+@font-face {
+  font-family: 'Aaargh';
+  src: url("../fonts/Aaargh-webfont.eot");
+  src: url("../fonts/Aaargh-webfont.svg") format("svg"), url("../fonts/Aaargh-webfont.ttf") format("truetype"), url("../fonts/Aaargh-webfont.woff") format("woff"); }
+html {
+  box-sizing: border-box;
+  transition: all 0.3s ease; }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  transition: all 0.3s ease; }
+
+body {
+  font-family: 'Aaargh', sans-serif; }
+
+hr {
+  color: #3c60ac;
+  height: 1px solid;
+  width: 90%; }
+
+span {
+  color: #3c60ac; }
+
+h2 {
+  font-size: 24px;
+  color: #3c60ac; }
+
+.logo {
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  display: block;
+  text-align: center; }
+
+nav {
+  color: #3c60ac;
+  display: block;
+  text-align: center; }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px; }
+    nav ul li a {
+      text-decoration: none;
+      color: #3c60ac; }
+      nav ul li a:hover {
+        background-color: #3c60ac;
+        color: white; }
+  nav p {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 3.125%;
+    margin: 0; }
+
+.bg img {
+  width: 100%; }
+
+.ellipse img {
+  width: 40%;
+  display: block;
+  padding: 3.125%;
+  height: auto;
+  margin: 0 auto; }
+.ellipse h3 {
+  color: #3c60ac;
+  text-align: center; }
+.ellipse p {
+  text-align: left;
+  font-size: 16px; }
+.ellipse .intro {
+  width: 100%;
+  float: left;
+  padding: 20px; }
+
+.benefits {
+  clear: both; }
+  .benefits p {
+    padding: 0 20px; }
+  .benefits .physical, .benefits .mental, .benefits .emotional {
+    background-color: #f3f8f2;
+    width: 98%;
+    float: left;
+    margin: 5px 3%; }
+    .benefits .physical h2, .benefits .mental h2, .benefits .emotional h2 {
+      position: relative;
+      margin: 35px;
+      margin-bottom: 10px;
+      padding: 10px 0; }
+      .benefits .physical h2 hr, .benefits .mental h2 hr, .benefits .emotional h2 hr {
+        width: 20px;
+        margin: 0;
+        position: absolute;
+        bottom: 0;
+        display: block;
+        text-align: left; }
+    .benefits .physical ul, .benefits .mental ul, .benefits .emotional ul {
+      padding: 10px; }
+      .benefits .physical ul li, .benefits .mental ul li, .benefits .emotional ul li {
+        list-style: none; }
+
+footer .bottom {
+  padding-top: 20px;
+  clear: both;
+  text-align: center; }
+  footer .bottom .ftr-contact img {
+    width: 7%;
+    display: inline-block; }
+  footer .bottom .ftr-contact p {
+    color: #3c60ac;
+    display: inline-block;
+    font-size: 14px;
+    width: 100%; }
+    footer .bottom .ftr-contact p.phone {
+      font-size: 16px; }
+
+@media only screen and (min-width: 768px) {
+  .ellipse .intro {
+    width: 50%;
+    float: left;
+    padding: 20px; }
+
+  .benefits .physical, .benefits .mental, .benefits .emotional {
+    background-color: #f3f8f2;
+    width: 30.333333%;
+    height: 320px;
+    float: left;
+    margin: 0 1.5%;
+    font-size: 14px; }
+
+  footer {
+    text-align: center; }
+    footer .ftr-contact {
+      float: left;
+      margin-top: 20px; }
+      footer .ftr-contact p {
+        float: left;
+        display: inline-block;
+        font-size: 14px;
+        width: 100%;
+        text-align: left;
+        margin: 0 50px; }
+        footer .ftr-contact p.phone {
+          font-size: 16px; }
+    footer .sns {
+      float: right;
+      margin: 30px; } }
+@media only screen and (min-width: 1000px) {
+  .logo img {
+    display: inline-block;
+    float: left; }
+
+  nav p {
+    display: none; }
+  nav ul {
+    float: right; }
+    nav ul li {
+      display: inline-block; }
+
+  .ellipse .intro {
+    width: 50%;
+    float: left;
+    padding: 20px; }
+
+  .benefits .physical, .benefits .mental, .benefits .emotional {
+    background-color: #f3f8f2;
+    width: 30.333333%;
+    height: 320px;
+    float: left;
+    margin: 0 1.5%;
+    font-size: 14px; }
+
+  footer {
+    text-align: center; }
+    footer .ftr-contact {
+      float: left;
+      margin-top: 20px; }
+      footer .ftr-contact p {
+        float: left;
+        display: inline-block;
+        font-size: 14px;
+        width: 100%;
+        text-align: left;
+        margin: 0 30px; }
+        footer .ftr-contact p.phone {
+          font-size: 16px; }
+    footer .sns {
+      float: right;
+      margin: 30px; } }
+
+/*# sourceMappingURL=main.css.map */
